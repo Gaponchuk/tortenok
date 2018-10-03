@@ -1,0 +1,19 @@
+@import "variables";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: $bg-color;
+    display: flex;
+    flex-direction: column;
+    color: $text-color;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
